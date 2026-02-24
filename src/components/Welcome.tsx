@@ -31,17 +31,11 @@ export default function Welcome() {
                 Bishopdale Village Mall with restautants, library, New World Supermarket and retails is only a 5-minute walk. Christchurh airport 7-minute drive. We are also close to the bus stop for easy access to Christchurch city centre.
               </p>
               <p>
-                You will be sharing with like minded travellers in a shared house situation with just five bedrooms. Meet new people, share stories, and enjoy top-notch amenities on a budget. <a href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:text-brand-800 underline font-medium">Book now</a> to start making unforgettable memories and lifelong connections!
+                You will be sharing with like minded travellers in a shared house situation with just five bedrooms. Meet new people, share stories, and enjoy cooking a meal together. <a href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:text-brand-800 underline font-medium">Book now</a> to start making unforgettable memories and lifelong connections!
               </p>
             </div>
 
-            <div className="pt-6 pb-4 relative">
-              <div className="absolute -top-2 left-0 text-6xl text-brand-200 font-serif opacity-60">"</div>
-              <h3 className="text-2xl md:text-3xl font-serif text-brand-800 italic pl-8 relative z-10 leading-snug">
-                Stay like a local in Christchurch!
-              </h3>
-            </div>
-            
+
             <div className="pt-8">
               <a
                 href="#gallery"

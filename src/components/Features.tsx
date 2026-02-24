@@ -4,9 +4,9 @@ import { Wifi, Coffee, Car, Sparkles, Snowflake, MapPin, WashingMachine, Luggage
 export default function Features() {
   const amenities = [
     { name: "Free Wi-Fi", icon: Wifi },
-    { name: "Kitchen", icon: Coffee },
-    { name: "Parking", icon: Car },
-    { name: "House Keeping", icon: Sparkles },
+    { name: "Fully Equipped Kitchen", icon: Coffee },
+    { name: "Onsite Parking", icon: Car },
+    { name: "Fortnightly Housekeeping Service", icon: Sparkles },
     { name: "Air Conditioning", icon: Snowflake },
     { name: "Close to CBD & Airport", icon: MapPin },
     { name: "Laundry Facilities", icon: WashingMachine },

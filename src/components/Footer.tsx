@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { Facebook, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -19,7 +19,7 @@ export default function Footer() {
           
           <div className="col-span-1 md:col-span-2">
             <p className="text-brand-300 max-w-sm mb-8 leading-relaxed">
-              Our home is your home in Christchurch. Enjoy a relaxing, hassle-free stay with top-notch amenities.
+              Our home is your home in Christchurch. It's the kind of place that stays with you long after you've left.
             </p>
             <div className="flex space-x-6">
               <a href="https://www.facebook.com/profile.php?id=61551048270198" target="_blank" rel="noopener noreferrer" className="text-brand-400 hover:text-white transition-colors">
@@ -29,10 +29,6 @@ export default function Footer() {
               <a href="#" className="text-brand-400 hover:text-white transition-colors">
                 <span className="sr-only">Instagram</span>
                 <Instagram className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-brand-400 hover:text-white transition-colors">
-                <span className="sr-only">Twitter</span>
-                <Twitter className="h-6 w-6" />
               </a>
             </div>
           </div>
