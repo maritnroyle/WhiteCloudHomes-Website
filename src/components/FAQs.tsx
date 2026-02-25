@@ -20,6 +20,14 @@ const faqs = [
     answer: "We can point you in the right direction — and we’ll give you everything you need to get started (including that proof of address letter)."
   },
   {
+    question: "Can I receive mail or parcel at the homestay?",
+    answer: "Yes! You can send your mail or parcel to our address if you're staying or about to check-in."
+  },
+  {
+    question: "Can I get proof of address letter?",
+    answer: "Absolutely. If you're staying with us and need proof of address to set up a bank account or apply for work, we’ll sort you out. You will need to be staying for a minimum of two weeks."
+  },
+  {
     question: "Can I store my bags after checkout?",
     answer: "Yes, please let us know."
   },
