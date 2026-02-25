@@ -16,6 +16,16 @@ const testimonials = [
     name: "Calvin Leong",
     photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.30808-6/348601963_790979759020181_8522215712113447391_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=bu3PTvxcYIgQ7kNvwFybc6b&_nc_oc=AdmutVbbhzscaBixvxWcCocvqKBDqD_qhv1K4EpH5rd3L22vTBHaFjmux-6tMkPyp2o&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=e1F_fR0-ZiXFd5tLZ7naiw&oh=00_Aft0mVthmb4_EovRqWwtkV2-SOGIZob_t-6Lh6SPVQn_Lg&oe=69A44FE6",
     review: "I had a lovely stay here. Cosy and well equipped place. It’s very convenient and there are eateries and a supermarket within 5-10 mins walk, and it’s around 10 mins drive from the airport. I would stay again when I’m back in Christchurch next time!"
+  },
+  {
+    name: "Chang Judy",
+    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t1.6435-9/43732134_1851713954882742_7118871012803870720_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=nuuNSYPnXpAQ7kNvwGiUnxl&_nc_oc=AdlcodrhHedYTteYhZYryulw2qvVlFT9CfCurfOTLEjLnGigOcpLVSu1n2LBiQlgUss&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=gOjrat0vARZCzxJ6g7csew&oh=00_AfttpCjGcG7SX_crK3vlNYZsch7hfJ7Z4vtJIOnv8jFJNA&oe=69C5F7FB",
+    review: "環境維持得很好，租金合理，地理位置也很便利，附近很多公車路線。生活機能佳，離各種賣場超市開車或搭公車都不遠；走路就能到的距離，也有當地人經營的蔬果店和規模比較小的超市。房東很友善也很樂於提供協助，房客多半是港台馬的打工度假背包客，大家可以互相交流資訊和經驗～是很溫馨友善的住所，對於新落地或是即將返國的包包都是很理想的選擇，也是會想要長期續住的地方～非常推薦!"
+  },
+  {
+    name: "Eunice Lim",
+    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t51.82787-15/608550270_18546968011050122_1648875529392549852_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=topg5uRI6_MQ7kNvwFG9YQy&_nc_oc=AdkvBZOFoReYZP-_2HfdTiuneJtmBEwJTvPnV_JSn7qG5A6Ffg4E6iosGvT6Y3bAVy4&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=PDZh3WnBtIhmEmtZ6Is84Q&oh=00_AfsCha3nVYx0EWl_SkO60MYfIsAlo7b2dKtlMfySgMOR6A&oe=69A44808",
+    review: "I had an amazing stay at White House Homestay! It’s a fantastic place for Working Holiday Visa holders, offering a comfortable and welcoming environment. One of the highlights of my stay was meeting so many wonderful people and making lifelong friends. The homestay is well-maintained, and the atmosphere is perfect for both relaxing and connecting with others. If you’re looking for a place to stay in Christchurch, I couldn’t recommend White House Homestay enough—it’s more than just accommodation; it’s a community!"
   }
 ];
 

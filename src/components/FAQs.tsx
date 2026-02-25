@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "Is there a minimun stay?",
-    answer: "Yes, our standard stay is 2 weeks. If you need shorter period, please contact us."
+    answer: "Yes, our standard stay is 2 weeks. If you need a shorter period, please contact us."
   }
 ];
 
