@@ -8,6 +8,8 @@ import Hero from './components/Hero';
 import Welcome from './components/Welcome';
 import Features from './components/Features';
 import Gallery from './components/Gallery';
+import FAQs from './components/FAQs';
+import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -19,6 +21,8 @@ export default function App() {
         <Welcome />
         <Features />
         <Gallery />
+        <FAQs />
+        <Testimonials />
       </main>
       <Footer />
     </div>

@@ -39,6 +39,8 @@ export default function Footer() {
               <li><a href="#home" className="text-brand-300 hover:text-white transition-colors">Home</a></li>
               <li><a href="#overview" className="text-brand-300 hover:text-white transition-colors">Overview</a></li>
               <li><a href="#gallery" className="text-brand-300 hover:text-white transition-colors">Gallery</a></li>
+              <li><a href="#faqs" className="text-brand-300 hover:text-white transition-colors">FAQs</a></li>
+              <li><a href="#testimonials" className="text-brand-300 hover:text-white transition-colors">Reviews</a></li>
               <li><a href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay" target="_blank" rel="noopener noreferrer" className="text-brand-300 hover:text-white transition-colors">Book Now</a></li>
             </ul>
           </div>
