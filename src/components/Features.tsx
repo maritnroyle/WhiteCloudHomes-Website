@@ -1,14 +1,14 @@
 import { motion } from 'motion/react';
-import { Wifi, Coffee, Car, Sparkles, Snowflake, MapPin, WashingMachine, Luggage, Key } from 'lucide-react';
+import { Wifi, Coffee, Car, Sparkles, Snowflake, Utensils, WashingMachine, Luggage, Key } from 'lucide-react';
 
 export default function Features() {
   const amenities = [
     { name: "Free Wi-Fi", icon: Wifi },
-    { name: "Fully Equipped Kitchen", icon: Coffee },
+    { name: "Fully Equipped Kitchen", icon: Utensils },
     { name: "Onsite Parking", icon: Car },
     { name: "Fortnightly Housekeeping Service", icon: Sparkles },
     { name: "Air Conditioning", icon: Snowflake },
-    { name: "Close to CBD & Airport", icon: MapPin },
+    { name: "Nespresso Coffee Machine", icon: Coffee },
     { name: "Laundry Facilities", icon: WashingMachine },
     { name: "Luggage Storage", icon: Luggage },
     { name: "Self Check-in", icon: Key },

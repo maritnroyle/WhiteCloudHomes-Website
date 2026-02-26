@@ -19,7 +19,7 @@ export default function Welcome() {
                 The Experience
               </h3>
               <h2 className="text-4xl md:text-5xl font-serif text-brand-900 leading-tight">
-                Welcome!
+                Welcome to WhiteCloud Homestay!
               </h2>
             </div>
             
