@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, ArrowLeft } from 'lucide-react';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 interface BookingModalProps {
   isOpen: boolean;
@@ -33,6 +35,22 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
     // Clear error when user starts typing
+    if (errors[name]) {
+      setErrors(prev => ({ ...prev, [name]: '' }));
+    }
+  };
+
+  const handleDateChange = (name: string, date: Date | null) => {
+    // Store as YYYY-MM-DD string to avoid timezone offset issues
+    let value = '';
+    if (date) {
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const day = String(date.getDate()).padStart(2, '0');
+      value = `${year}-${month}-${day}`;
+    }
+    
+    setFormData(prev => ({ ...prev, [name]: value }));
     if (errors[name]) {
       setErrors(prev => ({ ...prev, [name]: '' }));
     }
@@ -223,27 +241,37 @@ Message: ${formData.message}`;
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
+                    <div className="flex flex-col">
                       <label htmlFor="checkIn" className="block text-sm font-medium text-brand-700 mb-1">Check-in Date *</label>
-                      <input
-                        type="date"
+                      <DatePicker
                         id="checkIn"
-                        name="checkIn"
-                        value={formData.checkIn}
-                        onChange={handleChange}
+                        selected={formData.checkIn ? new Date(formData.checkIn + 'T00:00:00') : null}
+                        onChange={(date) => handleDateChange('checkIn', date)}
+                        selectsStart
+                        startDate={formData.checkIn ? new Date(formData.checkIn + 'T00:00:00') : undefined}
+                        endDate={formData.checkOut ? new Date(formData.checkOut + 'T00:00:00') : undefined}
+                        minDate={new Date()}
+                        dateFormat="dd MMM yyyy"
+                        placeholderText="Select check-in date"
                         className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all ${errors.checkIn ? 'border-red-500' : 'border-brand-200'}`}
+                        wrapperClassName="w-full"
                       />
                       {errors.checkIn && <p className="text-red-500 text-xs mt-1">{errors.checkIn}</p>}
                     </div>
-                    <div>
+                    <div className="flex flex-col">
                       <label htmlFor="checkOut" className="block text-sm font-medium text-brand-700 mb-1">Check-out Date *</label>
-                      <input
-                        type="date"
+                      <DatePicker
                         id="checkOut"
-                        name="checkOut"
-                        value={formData.checkOut}
-                        onChange={handleChange}
+                        selected={formData.checkOut ? new Date(formData.checkOut + 'T00:00:00') : null}
+                        onChange={(date) => handleDateChange('checkOut', date)}
+                        selectsEnd
+                        startDate={formData.checkIn ? new Date(formData.checkIn + 'T00:00:00') : undefined}
+                        endDate={formData.checkOut ? new Date(formData.checkOut + 'T00:00:00') : undefined}
+                        minDate={formData.checkIn ? new Date(formData.checkIn + 'T00:00:00') : new Date()}
+                        dateFormat="dd MMM yyyy"
+                        placeholderText="Select check-out date"
                         className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all ${errors.checkOut ? 'border-red-500' : 'border-brand-200'}`}
+                        wrapperClassName="w-full"
                       />
                       {errors.checkOut && <p className="text-red-500 text-xs mt-1">{errors.checkOut}</p>}
                     </div>
