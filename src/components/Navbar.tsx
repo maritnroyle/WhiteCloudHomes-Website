@@ -1,7 +1,11 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
-export default function Navbar() {
+interface NavbarProps {
+  onBookNow: (e: React.MouseEvent) => void;
+}
+
+export default function Navbar({ onBookNow }: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -49,9 +53,8 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={onBookNow}
               className={`px-6 py-3 text-sm font-semibold uppercase tracking-wider transition-colors ${
                 isScrolled
                   ? 'bg-brand-800 text-white hover:bg-brand-900'
@@ -90,10 +93,11 @@ export default function Navbar() {
             ))}
             <div className="pt-4">
               <a
-                href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setIsMobileMenuOpen(false)}
+                href="#"
+                onClick={(e) => {
+                  setIsMobileMenuOpen(false);
+                  onBookNow(e);
+                }}
                 className="block w-full text-center px-6 py-4 text-base font-semibold text-white bg-brand-800 uppercase tracking-wider"
               >
                 Book Now

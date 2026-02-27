@@ -1,6 +1,11 @@
+import React from 'react';
 import { motion } from 'motion/react';
 
-export default function Hero() {
+interface HeroProps {
+  onBookNow: (e: React.MouseEvent) => void;
+}
+
+export default function Hero({ onBookNow }: HeroProps) {
   return (
     <section id="home" className="relative h-screen w-full flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -30,9 +35,8 @@ export default function Hero() {
             Our home is <br /> your home
           </h1>
           <a
-            href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
+            onClick={onBookNow}
             className="inline-block bg-white text-brand-900 px-10 py-4 text-sm font-semibold uppercase tracking-widest hover:bg-brand-50 transition-colors duration-300 shadow-lg"
           >
             Book Now

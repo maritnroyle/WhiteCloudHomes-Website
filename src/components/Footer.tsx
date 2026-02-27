@@ -1,6 +1,11 @@
+import React from 'react';
 import { Facebook, Instagram } from 'lucide-react';
 
-export default function Footer() {
+interface FooterProps {
+  onBookNow: (e: React.MouseEvent) => void;
+}
+
+export default function Footer({ onBookNow }: FooterProps) {
   return (
     <footer id="contact" className="bg-brand-950 text-brand-100 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,7 +46,7 @@ export default function Footer() {
               <li><a href="#gallery" className="text-brand-300 hover:text-white transition-colors">Gallery</a></li>
               <li><a href="#faqs" className="text-brand-300 hover:text-white transition-colors">FAQs</a></li>
               <li><a href="#testimonials" className="text-brand-300 hover:text-white transition-colors">Reviews</a></li>
-              <li><a href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay" target="_blank" rel="noopener noreferrer" className="text-brand-300 hover:text-white transition-colors">Book Now</a></li>
+              <li><a href="#" onClick={onBookNow} className="text-brand-300 hover:text-white transition-colors">Book Now</a></li>
             </ul>
           </div>
 

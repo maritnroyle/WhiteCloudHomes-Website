@@ -2,7 +2,11 @@ import { motion, AnimatePresence } from 'motion/react';
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
-export default function Gallery() {
+interface GalleryProps {
+  onBookNow: (e: React.MouseEvent) => void;
+}
+
+export default function Gallery({ onBookNow }: GalleryProps) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   const images = [
@@ -108,9 +112,8 @@ export default function Gallery() {
         
         <div className="text-center mt-12">
           <a
-            href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
+            onClick={onBookNow}
             className="inline-block border border-brand-800 text-brand-900 px-10 py-4 text-sm font-semibold uppercase tracking-widest hover:bg-brand-800 hover:text-white transition-colors duration-300"
           >
             Book Your Stay
