@@ -8,8 +8,8 @@ const faqs = [
     answer: "Check-in is from 2:00 PM, and check-out is by 12:00 PM. If you need to request an early check-in or late check-out, please contact us in advance."
   },
   {
-    question: "Is there parking available?",
-    answer: "Yes, we offer on-site parking for our guests on first come first served basis. There is also plenty of free street parking available."
+    question: "Where can I park?",
+    answer: "We offer on-site parking for our guests on first come first served basis. There is also plenty of free street parking available."
   },
   {
     question: "Can I arrive early and store bags?",
