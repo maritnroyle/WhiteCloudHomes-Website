@@ -3,7 +3,7 @@ import { Wifi, Coffee, Car, Sparkles, Snowflake, Utensils, WashingMachine, Lugga
 
 export default function Features() {
   const amenities = [
-    { name: "Free Wi-Fi", icon: Wifi },
+    { name: "Fast and Free Wi-Fi", icon: Wifi },
     { name: "Fully Equipped Kitchen", icon: Utensils },
     { name: "Onsite Parking", icon: Car },
     { name: "Fortnightly Housekeeping Service", icon: Sparkles },

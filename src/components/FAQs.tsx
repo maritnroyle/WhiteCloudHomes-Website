@@ -24,6 +24,10 @@ const faqs = [
     answer: "Yes! You can send your mail or parcel to our address if you're staying or about to check-in."
   },
   {
+    question: "Do you have rooms with private bathroom?",
+    answer: "Yes! We have two rooms that share an ensuite bathroom. The rooms are for female only."
+  },
+  {
     question: "Can I get proof of address letter?",
     answer: "Absolutely. If you're staying with us and need proof of address to set up a bank account or apply for work, we’ll sort you out. You will need to be staying for a minimum of two weeks."
   },
@@ -33,7 +37,7 @@ const faqs = [
   },
   {
     question: "Is there a minimun stay?",
-    answer: "Yes, our standard stay is 2 weeks. If you need a shorter period, please contact us."
+    answer: "Yes, our standard stay is two weeks. If you need a shorter period, please contact us."
   }
 ];
 
