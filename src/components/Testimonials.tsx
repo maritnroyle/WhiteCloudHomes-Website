@@ -4,7 +4,7 @@ import { Star } from 'lucide-react';
 const testimonials = [
   {
     name: "Yuen Mae",
-    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.30808-6/621833632_25826910870268876_5835329340013658991_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=SjuJ082Ho9AQ7kNvwEGMu0Q&_nc_oc=Adk5CIO4Cl3-7C_FgRJF6ftIaQqVP0Map_DyapAnHabd_HAJfwr2_Vp2lF7emI7C248&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=AhSlb83sSSzkzcmSIkNxAQ&oh=00_AftTfXd-s0tNO2UNzl_8EhzwWhW-LeR7EQk5JueM9Ybwjg&oe=69A41B1A",
+    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.30808-6/481286808_9301879769865247_4782445388670362584_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=53a332&_nc_ohc=5RePP1Upa10Q7kNvwHv53oT&_nc_oc=AdpQ-97podjD-3hOgrbjm-enLgKertDcNzlQhUdDWGpmVZRysYvqxocyNytsf0NshSk&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=5fcYM8qEkyr8J75rO6biyw&_nc_ss=7a32e&oh=00_Afyo9VdRaDUKjJsj4zKVSOGZ6LeunRXWiZdbDR6zSfg21w&oe=69C65919",
     review: "We were really grateful for accommodating us on such short notice. My friend and I shared a comfortable room, and the place was well-equipped with everything we needed — a washing machine, dryer, a cozy living room with a TV, a kitchen and most importantly, an electric blanket (it was winter). Everything was very clean, and there was plenty of space for parking. A great stay overall!"
   },
   {
@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     name: "Calvin Leong",
-    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.30808-6/348601963_790979759020181_8522215712113447391_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=bu3PTvxcYIgQ7kNvwFybc6b&_nc_oc=AdmutVbbhzscaBixvxWcCocvqKBDqD_qhv1K4EpH5rd3L22vTBHaFjmux-6tMkPyp2o&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=e1F_fR0-ZiXFd5tLZ7naiw&oh=00_Aft0mVthmb4_EovRqWwtkV2-SOGIZob_t-6Lh6SPVQn_Lg&oe=69A44FE6",
+    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.30808-6/348601963_790979759020181_8522215712113447391_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=WljNZPs5fvwQ7kNvwHnO1kq&_nc_oc=Adp7rjLMmHKdZcH_adCYLVzKBEG-zgLX-7rfAiUg5CCWV2ym8e4u88Tz4PQzZ7V1XYo&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=CePIMIiYjBIsd8MQexXgbw&_nc_ss=7a32e&oh=00_AfwoGFrSWM5O8k9WL9uYDeCyIe4gLYjH5SdesXZL2Wp_PQ&oe=69C65EA6",
     review: "I had a lovely stay here. Cosy and well equipped place. It’s very convenient and there are eateries and a supermarket within 5-10 mins walk, and it’s around 10 mins drive from the airport. I would stay again when I’m back in Christchurch next time!"
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     name: "Eunice Lim",
-    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t51.82787-15/608550270_18546968011050122_1648875529392549852_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=topg5uRI6_MQ7kNvwFG9YQy&_nc_oc=AdkvBZOFoReYZP-_2HfdTiuneJtmBEwJTvPnV_JSn7qG5A6Ffg4E6iosGvT6Y3bAVy4&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=PDZh3WnBtIhmEmtZ6Is84Q&oh=00_AfsCha3nVYx0EWl_SkO60MYfIsAlo7b2dKtlMfySgMOR6A&oe=69A44808",
+    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.30808-6/555727963_10231226450029477_5550895513324077471_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=53a332&_nc_ohc=AvkaSUJCuXEQ7kNvwGT8nHW&_nc_oc=Adq-XywDUSe_cLsaFX5jU2QDwJxxgJMAOSqTDlHGnyqX5KNtTKvVOnOGEmc6hvPOS60&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=fJ7wqC8q0xm8ndGvtAmPSQ&_nc_ss=7a32e&oh=00_AfylnOJzBXXN8ymu9VrefZ99HxwVoXtkblMrgyupVMjiIg&oe=69C647B2",
     review: "I had an amazing stay at White House Homestay! It’s a fantastic place for Working Holiday Visa holders, offering a comfortable and welcoming environment. One of the highlights of my stay was meeting so many wonderful people and making lifelong friends. The homestay is well-maintained, and the atmosphere is perfect for both relaxing and connecting with others. If you’re looking for a place to stay in Christchurch, I couldn’t recommend White House Homestay enough—it’s more than just accommodation; it’s a community!"
   }
 ];
