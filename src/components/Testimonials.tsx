@@ -4,27 +4,27 @@ import { Star } from 'lucide-react';
 const testimonials = [
   {
     name: "Yuen Mae",
-    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.30808-6/481286808_9301879769865247_4782445388670362584_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=53a332&_nc_ohc=5RePP1Upa10Q7kNvwHv53oT&_nc_oc=AdpQ-97podjD-3hOgrbjm-enLgKertDcNzlQhUdDWGpmVZRysYvqxocyNytsf0NshSk&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=5fcYM8qEkyr8J75rO6biyw&_nc_ss=7a32e&oh=00_Afyo9VdRaDUKjJsj4zKVSOGZ6LeunRXWiZdbDR6zSfg21w&oe=69C65919",
+    photo: "https://lh3.googleusercontent.com/pw/AP1GczN9g2D-T-mbckgpF3Q7oqdHJK1rJthcPhj_k5wqQGcR_xxOOlcooXaQM6T5_A8kSTB4eejc3ln6QKc_4cnY_baFYrMXgU2Q1SiD0gxMz2QBNo2cr033gXOmHZoUZFA-fiYVbtHX0nVWnQrzIbtjQFNT=w960-h960-s-no?authuser=0",
     review: "We were really grateful for accommodating us on such short notice. My friend and I shared a comfortable room, and the place was well-equipped with everything we needed — a washing machine, dryer, a cozy living room with a TV, a kitchen and most importantly, an electric blanket (it was winter). Everything was very clean, and there was plenty of space for parking. A great stay overall!"
   },
   {
     name: "Evol Wong",
-    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t1.6435-9/119601391_3584625751569605_7315470566445264096_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=dZylU49np1IQ7kNvwG2CkRQ&_nc_oc=AdlOi3whv9oxxv2eEN1YYUA3L37zphJucPUbY9S_n03WnVWk5SsRdYowOAUEIwOpJAw&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=ckvhI_uoFA13O-X0V0Cgrg&oh=00_Afvw7n3Ed9o5E9lrFMxcSMv3XSjBjQkk0D8HoBHa8s4rcQ&oe=69C5E83F",
+    photo: "https://lh3.googleusercontent.com/pw/AP1GczNjQ_2co1qk3ZwkWd3hL-QFBsWdPt3iVH7-mID9tdPOOgo_vuLmegfpokBL1yu8IWwP-YJbMjGjKjgUbq-C0u01bR7qOKXsV9zujDS70mhQcknPo3sKmZq0-qIPkyq7Whq1DH1qHNXwRpXOkFMaWfI5=w987-h986-s-no?authuser=0",
     review: "A perfect base for exploring Christchurch. The location is very convenient, close to the airport and easy to get to the city center. The kitchen had everything we needed."
   },
   {
     name: "Calvin Leong",
-    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.30808-6/348601963_790979759020181_8522215712113447391_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=WljNZPs5fvwQ7kNvwHnO1kq&_nc_oc=Adp7rjLMmHKdZcH_adCYLVzKBEG-zgLX-7rfAiUg5CCWV2ym8e4u88Tz4PQzZ7V1XYo&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=CePIMIiYjBIsd8MQexXgbw&_nc_ss=7a32e&oh=00_AfwoGFrSWM5O8k9WL9uYDeCyIe4gLYjH5SdesXZL2Wp_PQ&oe=69C65EA6",
+    photo: "https://lh3.googleusercontent.com/pw/AP1GczOLS7bX43MuTJX9RS6CvDLHsWzvfCStrtq8_asretFKw-EzCUQLo_gm8uH-l8LLPzDfve-lKAO5PtaM0mUR0uCsaLfJjt82GgzbyhjCs5QQyEcRWd8tk-bopoE8AdvH8Xw4td-c_XfQF7k2ae3xoDM0=w2048-h2048-s-no?authuser=0",
     review: "I had a lovely stay here. Cosy and well equipped place. It’s very convenient and there are eateries and a supermarket within 5-10 mins walk, and it’s around 10 mins drive from the airport. I would stay again when I’m back in Christchurch next time!"
   },
   {
     name: "Chang Judy",
-    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t1.6435-9/43732134_1851713954882742_7118871012803870720_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=nuuNSYPnXpAQ7kNvwGiUnxl&_nc_oc=AdlcodrhHedYTteYhZYryulw2qvVlFT9CfCurfOTLEjLnGigOcpLVSu1n2LBiQlgUss&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=gOjrat0vARZCzxJ6g7csew&oh=00_AfttpCjGcG7SX_crK3vlNYZsch7hfJ7Z4vtJIOnv8jFJNA&oe=69C5F7FB",
+    photo: "https://lh3.googleusercontent.com/pw/AP1GczMc7cFnWsfagCMivmWxSTHsVez6J3jH4PUREeFOJJJ13gTUapqFVtPEOG46tbHM6NUaOOjzeD4_DsgAX9xHxeXaNcK569MX_Zttgly940GrHa3woEcwr1FwyPfNufp6ZfLYtidyK8FNJLBd5dH19JiD=w960-h960-s-no?authuser=0",
     review: "環境維持得很好，租金合理，地理位置也很便利，附近很多公車路線。生活機能佳，離各種賣場超市開車或搭公車都不遠；走路就能到的距離，也有當地人經營的蔬果店和規模比較小的超市。房東很友善也很樂於提供協助，房客多半是港台馬的打工度假背包客，大家可以互相交流資訊和經驗～是很溫馨友善的住所，對於新落地或是即將返國的包包都是很理想的選擇，也是會想要長期續住的地方～非常推薦!"
   },
   {
     name: "Eunice Lim",
-    photo: "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.30808-6/555727963_10231226450029477_5550895513324077471_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=53a332&_nc_ohc=AvkaSUJCuXEQ7kNvwGT8nHW&_nc_oc=Adq-XywDUSe_cLsaFX5jU2QDwJxxgJMAOSqTDlHGnyqX5KNtTKvVOnOGEmc6hvPOS60&_nc_zt=23&_nc_ht=scontent.fakl2-1.fna&_nc_gid=fJ7wqC8q0xm8ndGvtAmPSQ&_nc_ss=7a32e&oh=00_AfylnOJzBXXN8ymu9VrefZ99HxwVoXtkblMrgyupVMjiIg&oe=69C647B2",
+    photo: "https://lh3.googleusercontent.com/pw/AP1GczM3JZZvCOgJA7PEWKDF4j3Y-RrnFLyG25yqHwxyyCmnsGM2LAAcPxWSDEJxPWWT6BXwCE8B7uJcos0IqCeJ7hWUfWjTzwCPXQTk1-Sg0Rgo6Y8aIJHmbnhGhyf1EiNb6sEBkCE-t0fWFeTjrFg_AJeC=w2048-h1361-s-no?authuser=0",
     review: "I had an amazing stay at White House Homestay! It’s a fantastic place for Working Holiday Visa holders, offering a comfortable and welcoming environment. One of the highlights of my stay was meeting so many wonderful people and making lifelong friends. The homestay is well-maintained, and the atmosphere is perfect for both relaxing and connecting with others. If you’re looking for a place to stay in Christchurch, I couldn’t recommend White House Homestay enough—it’s more than just accommodation; it’s a community!"
   }
 ];
