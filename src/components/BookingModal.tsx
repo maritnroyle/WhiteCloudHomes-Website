@@ -310,7 +310,7 @@ Message: ${formData.message}`;
                       type="submit"
                       className="w-full bg-brand-800 text-white py-3 px-4 rounded-lg font-semibold uppercase tracking-wider hover:bg-brand-900 transition-colors shadow-md"
                     >
-                      Review Booking
+                      Send Enquiry
                     </button>
                   </div>
                 </form>
@@ -355,7 +355,7 @@ Message: ${formData.message}`;
                       onClick={handleConfirm}
                       className="w-full bg-[#25D366] text-white py-3 px-4 rounded-lg font-semibold uppercase tracking-wider hover:bg-[#128C7E] transition-colors shadow-md flex items-center justify-center gap-2"
                     >
-                      Book Now
+                      Send
                     </button>
                   </div>
                 </div>
