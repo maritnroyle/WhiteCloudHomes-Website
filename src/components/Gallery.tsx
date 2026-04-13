@@ -15,7 +15,7 @@ export default function Gallery({ onBookNow }: GalleryProps) {
       caption: "Fully Equipped Kitchen and Dining Area"
     },
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczPQcxwrPf29nce8JmAlC_S88wuxN_-BuZgmWuat9eTXO4W_5WF8YfSYi0CaUhnuRbbOlLm3WDkZy_eXC2CYraHVmb7JffcMBwLtNhDmqqOGcOnoCUsu_-1P0Dx8SQBaHg7ZvwP3ryULwaOdprdDaibM=w896-h1200-s-no?authuser=0",
+      src: "https://lh3.googleusercontent.com/pw/AP1GczO_RoPRRJrXe0tBHaOqoJBuKfBR4EEcIbrOrkJ_Hth6UCV7n13mmgLYlVWToU2GIqE_XEKRAp8kvF06uKgVG-YhO38uPvcG6ukriYFoAoCp-6ZepLglfChD0UzHmiFWX_3xMnl7p9ztAtlWe1waCVbJ=w1024-h1536-s-no?authuser=0",
       caption: "Ensuite Toilet"
     },
     {
