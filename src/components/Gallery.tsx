@@ -11,39 +11,39 @@ export default function Gallery({ onBookNow }: GalleryProps) {
 
   const images = [
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczPyORml2zj-oYMnQB6HkKih16KiTMRaqlFhoubMTl9l-9U_AS0YS7THKK2OgR5jEXnfKNyK8A4EICLrPjS3nq2Exb_QKClhuDXo1vocDFOCqVK6xTVZbPhgPr-oxqplWV4cEiLT1InCvuvLx7qc3hHn=w1200-h896-s-no?authuser=0",
+      src: "/gallery/kitchen.jpg",
       caption: "Fully Equipped Kitchen and Dining Area"
     },
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczO_RoPRRJrXe0tBHaOqoJBuKfBR4EEcIbrOrkJ_Hth6UCV7n13mmgLYlVWToU2GIqE_XEKRAp8kvF06uKgVG-YhO38uPvcG6ukriYFoAoCp-6ZepLglfChD0UzHmiFWX_3xMnl7p9ztAtlWe1waCVbJ=w1024-h1536-s-no?authuser=0",
+      src: "/gallery/ensuite.jpg",
       caption: "Ensuite Toilet"
     },
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczMky0tQQiv71b1oTfdcRARsur47pi6pNq5zinUGxo3S0r-oXmRY_J_IWP4NubQ0-QtYnmXd1jqu8flZVdyShExPL-Rb2EJSvc_hHC1-wJxXOSiutfAueFDzyZzNUFjQKs8x3cUSeD0-Wl9SyRFSKxBQ=w1200-h896-s-no?authuser=0",
+      src: "/gallery/living-area.jpg",
       caption: "Spacious Living Area"
     },
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczPxRmOjw2K4v40gxKw-Oa5-_MruUxHYw6H9kIjBbFG7ySmcMhypDrgs2_rBxskS-wxXquuShazNXLXOYKEK8beC5-Yrs0B8bmL_ByzCHX7v1sS-6PAVGXWdLrvowFJE_0BUMB-aHBwYHjxXNS9BsXBY=w1264-h848-s-no?authuser=0",
+      src: "/gallery/main-bathroom.jpg",
       caption: "Main Bathroom"
     },
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczNelaAMzMGzdLch3VURHe5lAZPf0tWFsV4Gsc3evlmX4_Z5k3tvmbnfhRK-a8dkmkU2XKQc1VR0KD9c1wafMasPo71SOEWul1-lrJjyiUvuFrz8mbrBBDSBqop4z2rgHioauO7qs9IH05KI_JwT0gRm=w3312-h2484-s-no?authuser=0",
+      src: "/gallery/bedroom-1.jpg",
       caption: "Bedroom"
     },
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczO95sgxqwPeEylDvghuBLs0C9k4MrRdZ7hp1CfswDKmPEU8_HCL0J5tXrUTYRskAsw_9QHrbyP0gTKpr7LvFDiL3VcCZglHtjCpmfzcKn7XQmjw0kpotouWBpereSrLU2jUep8-7F9aFyXYfTHWSL61=w3312-h2484-s-no?authuser=0",
+      src: "/gallery/bedroom-2.jpg",
       caption: "Bedroom"
     },
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczPEgo-pc-ynOD4tJo7z02guLUKGSw2lGeFRafvFnQKnLjHP7-hS8lA5Z2lnzsjLMF95Q-CoLR09mC8E_20SVtl6ctTKGTZMouzFdhqTNylxr7CnuUdgin7ROe_md92OG_aaZZi-UJRKBHtnd3Re9Xv4=w3312-h2484-s-no?authuser=0",
+      src: "/gallery/bedroom-3.jpg",
       caption: "Bedroom"
     },
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczOQ9O4Dixs56B6n59oZTXbhnM4niVsWXCqhH9joEcPqdKD93qcdlTPNu1BVbUjNRtBfLf84qxQ0P-zgjYX-y9NVWkGL7extZzfmEcbwh5lBLJHVhT8unnc98e-NoTn0XlcoJs2rcBCGjdPT-k1D6evb=w2048-h1536-s-no?authuser=0",
+      src: "/gallery/bedroom-4.jpg",
       caption: "Bedroom"
     },
     {
-      src: "https://lh3.googleusercontent.com/pw/AP1GczO_nUqncVVa9ripitLeU79xB7H3FRGy7MMOuayyaGrizM3kv-Qqwf9vZWCcySeWv1LYHfOl29elfDh3kIA0cf9JriWgyA-KtbVkNOUcovBmM51_K2X5W3cXzQGkWNZi91VzfrbvdP5A_qsGII6lWTQO=w1024-h765-s-no?authuser=0",
+      src: "/gallery/laundry.jpg",
       caption: "Laundry"
     }
   ];

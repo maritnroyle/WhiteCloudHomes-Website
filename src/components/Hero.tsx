@@ -11,7 +11,7 @@ export default function Hero({ onBookNow }: HeroProps) {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://lh3.googleusercontent.com/pw/AP1GczNEt-0e3kbjbKrgsOVuFdikYTDKTICsvMMc9HeY1yC3g7O_KYawXQhx-FT2Abw467MZIUfpl7CH7At6NmdPF2QCZLVMWAev6Wgwlm7cZFdL7YYxb2wzV9WwmsXQlow7n_S8NXY-H0u1m5HQp5xd76yX=w1231-h792-s-no?authuser=0"
+          src="/hero.jpg"
           alt="Homestay Exterior"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
