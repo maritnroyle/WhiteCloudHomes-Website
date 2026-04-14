@@ -15,6 +15,8 @@ export default function Hero({ onBookNow }: HeroProps) {
           alt="Homestay Exterior"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
+          fetchPriority="high"
+          loading="eager"
         />
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-black/40"></div>

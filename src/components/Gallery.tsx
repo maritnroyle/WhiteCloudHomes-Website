@@ -100,6 +100,7 @@ export default function Gallery({ onBookNow }: GalleryProps) {
                 alt={image.caption}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                 <p className="text-white font-medium transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
@@ -156,6 +157,7 @@ export default function Gallery({ onBookNow }: GalleryProps) {
                 className="max-w-full max-h-[80vh] object-contain"
                 referrerPolicy="no-referrer"
                 onClick={(e) => e.stopPropagation()}
+                loading="eager"
               />
               <motion.p 
                 initial={{ opacity: 0, y: 10 }}

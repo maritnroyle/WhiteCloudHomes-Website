@@ -57,30 +57,34 @@ export default function Welcome() {
           >
             <div className="space-y-4 pt-12">
               <img
-                src="https://lh3.googleusercontent.com/pw/AP1GczPyORml2zj-oYMnQB6HkKih16KiTMRaqlFhoubMTl9l-9U_AS0YS7THKK2OgR5jEXnfKNyK8A4EICLrPjS3nq2Exb_QKClhuDXo1vocDFOCqVK6xTVZbPhgPr-oxqplWV4cEiLT1InCvuvLx7qc3hHn=w1200-h896-s-no?authuser=0"
+                src="/gallery/kitchen.jpg"
                 alt="Interior Bedroom"
                 className="w-full h-64 object-cover rounded-sm shadow-md"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <img
-                src="https://lh3.googleusercontent.com/pw/AP1GczPQcxwrPf29nce8JmAlC_S88wuxN_-BuZgmWuat9eTXO4W_5WF8YfSYi0CaUhnuRbbOlLm3WDkZy_eXC2CYraHVmb7JffcMBwLtNhDmqqOGcOnoCUsu_-1P0Dx8SQBaHg7ZvwP3ryULwaOdprdDaibM=w896-h1200-s-no?authuser=0"
+                src="/gallery/ensuite.jpg"
                 alt="Living Area"
                 className="w-full h-80 object-cover rounded-sm shadow-md"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
             </div>
             <div className="space-y-4">
               <img
-                src="https://lh3.googleusercontent.com/pw/AP1GczMky0tQQiv71b1oTfdcRARsur47pi6pNq5zinUGxo3S0r-oXmRY_J_IWP4NubQ0-QtYnmXd1jqu8flZVdyShExPL-Rb2EJSvc_hHC1-wJxXOSiutfAueFDzyZzNUFjQKs8x3cUSeD0-Wl9SyRFSKxBQ=w1200-h896-s-no?authuser=0"
+                src="/gallery/living-area.jpg"
                 alt="Dining Area"
                 className="w-full h-80 object-cover rounded-sm shadow-md"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <img
-                src="https://lh3.googleusercontent.com/pw/AP1GczPxRmOjw2K4v40gxKw-Oa5-_MruUxHYw6H9kIjBbFG7ySmcMhypDrgs2_rBxskS-wxXquuShazNXLXOYKEK8beC5-Yrs0B8bmL_ByzCHX7v1sS-6PAVGXWdLrvowFJE_0BUMB-aHBwYHjxXNS9BsXBY=w1264-h848-s-no?authuser=0"
+                src="/gallery/main-bathroom.jpg"
                 alt="Kitchen"
                 className="w-full h-64 object-cover rounded-sm shadow-md"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
             </div>
             

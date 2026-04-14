@@ -71,6 +71,7 @@ export default function Testimonials() {
                   src={testimonial.photo}
                   alt={testimonial.name}
                   className="w-12 h-12 rounded-full object-cover mr-4 border-2 border-brand-100"
+                  loading="lazy"
                 />
                 <div>
                   <h4 className="font-semibold text-brand-900">{testimonial.name}</h4>
