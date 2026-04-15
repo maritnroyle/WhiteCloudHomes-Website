@@ -61,14 +61,14 @@ export default function Welcome() {
                 alt="Interior Bedroom"
                 className="w-full h-64 object-cover rounded-sm shadow-md"
                 referrerPolicy="no-referrer"
-                loading="lazy"
+                loading="eager"
               />
               <img
                 src="/gallery/ensuite.jpg"
                 alt="Living Area"
                 className="w-full h-80 object-cover rounded-sm shadow-md"
                 referrerPolicy="no-referrer"
-                loading="lazy"
+                loading="eager"
               />
             </div>
             <div className="space-y-4">
@@ -77,14 +77,14 @@ export default function Welcome() {
                 alt="Dining Area"
                 className="w-full h-80 object-cover rounded-sm shadow-md"
                 referrerPolicy="no-referrer"
-                loading="lazy"
+                loading="eager"
               />
               <img
                 src="/gallery/main-bathroom.jpg"
                 alt="Kitchen"
                 className="w-full h-64 object-cover rounded-sm shadow-md"
                 referrerPolicy="no-referrer"
-                loading="lazy"
+                loading="eager"
               />
             </div>
             
