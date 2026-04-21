@@ -25,13 +25,13 @@ export default function Welcome() {
             
             <div className="space-y-6 text-brand-800/80 leading-relaxed font-light text-lg">
               <p>
-                With a welcoming, homey vibe and all the essential amenities, you can rest easy knowing you have everything you need for a relaxing and hassle-free stay.
+                Experience the perfect blend of comfort and convenience. Our homestay offers an inviting, well-appointed atmosphere with all the essential amenities, ensuring a relaxing and seamless stay.
               </p>
               <p>
-                Bishopdale Village Mall with restautants, library, New World Supermarket and retails is only a 5-minute walk. Christchurh airport 7-minute drive. We are also close to the bus stop for easy access to Christchurch city centre.
+                We are just a 5-minute walk from Bishopdale Village Mall, giving you easy access to a library, New World supermarket, diverse restaurants, and retail shops. Christchurch Airport is a quick 8-minute drive away, and nearby bus stops offer direct connections to the Christchurch City Centre.
               </p>
               <p>
-                You will be sharing with like minded travellers in a shared house situation with just five bedrooms. Meet new people, share stories, and enjoy cooking a meal together. <a href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:text-brand-800 underline font-medium">Book now</a> to start making unforgettable memories and lifelong connections!
+                Designed for the social traveler, our five-bedroom home allows you to connect with like-minded guests. Meet new people, share stories, and enjoy cooking a meal together. <a href="https://wa.me/64226919410?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:text-brand-800 underline font-medium">Book now</a> to start making unforgettable memories and lifelong connections!
               </p>
             </div>
 
